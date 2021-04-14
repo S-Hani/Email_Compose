@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-14T22:36:41 IST" name="Default suite" finished-at="2021-04-14T22:37:34 IST" duration-ms="52983">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNGTestRunner@2657d4dd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-04-14T22:36:41 IST" name="Default test" finished-at="2021-04-14T22:37:34 IST" duration-ms="52983">
+      <class name="testRunner.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.TestNGTestRunner@2657d4dd]" started-at="2021-04-14T22:36:41 IST" name="setUpClass" finished-at="2021-04-14T22:36:42 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNGTestRunner@2657d4dd]" started-at="2021-04-14T22:36:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-14T22:37:34 IST" duration-ms="52341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check the contents of email after send"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To test the compose functionality for GMail]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestNGTestRunner@2657d4dd]" started-at="2021-04-14T22:37:34 IST" name="tearDownClass" finished-at="2021-04-14T22:37:34 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:testRunner.TestNGTestRunner@2657d4dd]" started-at="2021-04-14T22:37:34 IST" name="generateReport" finished-at="2021-04-14T22:37:36 IST" duration-ms="1939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- testRunner.TestNGTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

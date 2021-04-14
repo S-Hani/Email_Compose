@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<appenders>
+		<RollingFile name="rollingFile" fileName="log/AutomationLog.log" 
+			filePattern="log/AutomationLog.log-%d{MM-dd-yyyy}.log">
+			<PatternLayout
+				pattern="%d %-5p [%t] %-17c{2} (%13F:%L) - %m%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+			</Policies>
+		</RollingFile>
+	</appenders>
+
+	<loggers>
+		<logger name="com" level="all">
+			<appender-ref ref="rollingFile" level="all" />
+		</logger>
+	</loggers>
+
+</configuration>
