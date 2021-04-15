@@ -10,8 +10,11 @@ import cucumber.TestContext;
 
 public class LoginPage extends Utility {
 	
-	private static final String PASSWORD = "tanishKA@20";
-	private static final String EMAIL_ID = "shettyhanish@hotmail.com";
+	/*
+	 * Please enter your email id and password for outlook
+	 */
+	private static final String PASSWORD = "****";
+	private static final String EMAIL_ID = "****";
 	
 	public LoginPage() {
 		super();
