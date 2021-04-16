@@ -13,8 +13,8 @@ public class LoginPage extends Utility {
 	/*
 	 * Please enter your email id and password for outlook
 	 */
-	private static final String PASSWORD = "****";
-	private static final String EMAIL_ID = "****";
+	private static final String PASSWORD = System.getProperty("password");
+	private static final String EMAIL_ID = System.getProperty("email");
 	
 	public LoginPage() {
 		super();

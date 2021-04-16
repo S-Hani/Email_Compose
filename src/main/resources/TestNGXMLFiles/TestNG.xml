@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="false">
+	<parameter name="email" value=""/>
+	<parameter name="password" value=""/>
 	<test name="Test" preserve-order="true" thread-count="1">
 		<classes>
 			<class name="testRunner.TestNGTestRunner" />
